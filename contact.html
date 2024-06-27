@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Valeria Pena">
+    <meta name="description" content="Contact Sunny Haven Resort to plan your escape to the Swiss Alps. Our team is ready to help you with bookings, special requests, and any questions you may have.">
+    <title>Sunny Haven Resort | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Sunny Haven Resort</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Accommodations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" style="background-image: url(images/swiss-valley.jpg)">
+            <h2>Welcome to Sunny Haven Resort Contact Page</h2>
+            <p>Reach out for any inquiries or to book your stay. We're here to ensure your vacation is unforgettable!</p>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <img src="images/swiss-peak.jpg" alt="Stunning peak view at Sunny Haven Resort, ideal for adventurous travelers">
+            <form>
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full_name" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="contact-method">Preferred Contact Method *</label>
+                <select id="contact-method" name="contact_method" required>
+                    <option value="" disabled selected>Select your preferred contact method</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy;2024 - Sunny Haven Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
